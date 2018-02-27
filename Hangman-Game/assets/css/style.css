@@ -1,0 +1,66 @@
+header{
+	border:3px solid black;
+	font-size: 40px;
+	text-align: center;
+	margin: 60px auto;
+	height: 350px;
+	width: 40%;
+	font-color: white;
+	background: lightblue;
+}
+body {
+    background-image: url("https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/share%20img/huracan-coupe-facebook-og.jpg");
+}
+
+#wins {
+	border:3px solid black;
+	font-size: 75px;
+	text-align: center;
+	margin: 50px auto;
+	height: 150px;
+	width: 30%;
+	background-color: yellow;
+}
+#rightWordUnderscore {
+	border:3px solid black;
+	font-size: 75px;
+	text-align: center;
+	margin: 35px auto;
+	height: 150px;
+	width: 30%;
+	font-color:white;
+	background-color: yellow;
+}
+
+#wrongGuessRemaining {
+	border:3px solid black;
+	font-size: 50px;
+	text-align: center;
+	margin: 50px auto;
+	height: 150px;
+	width: 30%;
+	font-color: white;
+	background-color: yellow;
+}
+
+#wrongLetters {
+	border:3px solid black;
+	font-size: 50px;
+	text-align: center;
+	margin: 50px auto;
+	height: 150px;
+	width: 30%;
+	font-color: white;
+	background-color: yellow;
+}
+
+h5 { 
+	/*border:3px solid black;*/
+	font-size: 60px;
+	text-align: center;
+	margin: 10px auto;
+	height: 30px;
+	width: 30%;
+    color:white;
+}
+

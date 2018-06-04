@@ -23,7 +23,7 @@ function newWord() {
 	for(i=0; i < chosenWord.length; i++) {
 		underscoreWord[i] = "_";
 	}
-	console.log(underscoreWord);
+    console.log(underscoreWord);
 	guessedLetters = [];
 }
 
@@ -63,6 +63,7 @@ document.onkeyup = function (event) {
 // display and decrease remaining guesses
 	if(validGuess === false) {
 		docwrongGuess = wrongGuessRemaining --;
+		//// Question//why does this docwrong guess work? the W is not capitialiized and when i do it breaks my code 
 		guessedLetters[guessedLetters.length] = userGuess;
 		console.log(guessedLetters);
 

@@ -3,47 +3,62 @@
   <head>
     <title>HangMan</title>
     <!--Reset-->
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/reset.css" /> -->
     <!--Css-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
- <!--    //User makes a letter choice
-//capture those choices 
-//compare letter choice to array letters
-//display -->
-  </body>
-  	<div class="container">
-  		<header>
-  			<h1 class="hangman">Hangman</h1>
-        <br>
-  			<h3 class="theme">The hottest Rides</h3>
-        <br>
-        <h4 class="instructions">Think about the companies that make the coolest cars! 
-        Guess the car manufacture! <br> <strong>START!! by chosing a letter on the key board to</strong>. <br>Once you fill every spot with a letter you WIN!! Try to get to 5 wins!! <br>You have 15 chances to guess the manufacture, once you hit zero you lose.
-       </h4>
-  		</header>
 
-      <!--track wins per word complete-->	
-          <h5>Number of Wins</h5>
-         <div id="wins">  Number of wins </div>
-         
-       
-       <!--Display the underlined correct words-->
-       <h5>Guess the Make Below!!</h5>       
-        <div id="rightWordUnderscore"> </div>
-          
-       <!--track the number of wrong guesses-->
-         <h5>Remaining Guesses</h5>
-        <div id="wrongGuessRemaining"> Remaining guesses</div>
-        
-          
-          <!--track the number of wrong Words-->
-          <h5>Wrong letters Guessed</h5>
-        <div id="wrongLetters"> Wrong letters Guessed</div>	
+
+  
+  <body onload="startGame()">
+
+    <div class="wrapper">
+      <h1 class="gameTitle">HANGMAN</h1>
+    </div>
+
+    
+    <div class="container">
+      <div class="themePic"><img src="assets/images/theOffice.jpg" alt="hangman office edition"></div>
+
+      <div class="title">
+        <h3 >Dunder Mifflin Paper Company - Employees</h3>
+        <p>Start with any key to get started!</p>
+      </div>
       
-  	
-<!--Javascript-->
-  	<script src ="assets/javascript/games.js"></script>
 
+      <div class="content">
+        <!--track wins per word complete-->
+        <h5>Number of Wins</h5>
+        <div class="wins"></div>
+        
+        <!--Display the underlined correct words-->
+        <h5>Guess the person Below!!</h5>
+        <div class="rightWordUnderscore"></div>
+        
+        <!--track the number of wrong guesses-->
+        <h5>Remaining Guesses</h5>
+        <div class="wrongGuessRemaining"></div>
+        
+        <!--track the number of wrong Words-->
+        <h5>Wrong letters Guessed</h5>
+        <div class="wrongLetters"></div>
+      </div>
+    </div>
+
+    <div class="instructions">
+      <button class="restartBtn">Restart</button>
+         <p>
+          TIPS: Once you fill every spot with a letter you <strong>WIN!!</strong> Try to get to 5
+          wins. 
+            <br>
+            You have<strong> 15 chances to guess the manufacture,</strong> once you hit zero you
+        <strong>lose</strong>.
+        </p>
+      </div>
+    
+    
+  </body>
+  
+  <!--Javascript-->
+  <script src="./assets/javascript/game.js"></script>
 </html>

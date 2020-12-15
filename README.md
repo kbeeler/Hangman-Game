@@ -9,8 +9,8 @@ Press any key to get started!
 
 Wins: (# of times user guessed the word correctly).
 
-If the word is FORD display it like this when the game starts: _ _ _ _
-As the user guesses the correct letters, reveal them: F_ R _
+If the word is JIM display it like this when the game starts: _ _ _ 
+As the user guesses the correct letters, reveal them: J _M
 
 Number of Guesses Remaining: (# of guesses remaining for the user).
 
